@@ -28,7 +28,7 @@ jobs:
           poetry-version: ${{ env.POETRY_VERSION }}
       - name: Install dependencies
         run: |
-          poetry install --sync --all-extras --with dev
+          poetry install
       - name: Check formatting with black
         run: |
           poetry run black . --check
