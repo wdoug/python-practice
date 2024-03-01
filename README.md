@@ -14,10 +14,10 @@ poetry run pytest
 
 ## Format
 ```sh
-poetry run black src tests
+poetry run black .
 ```
 
 ## Lint
 ```sh
-poetry run ruff src tests
+poetry run ruff .
 ```
